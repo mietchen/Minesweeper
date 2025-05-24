@@ -1,6 +1,6 @@
 # minesweeper.py
 # Objektorientierte Skriptsprachen ESA2
-# 23.05.2025
+# 24.05.2025
 
 __author__ = 'Stefan Mietchen'
 
@@ -9,8 +9,8 @@ import random
 import sys
 
 # Einstellungen hier vornehmen
-SPIELFELDGROESSE = (320, 320)
-ANZAHL_SPALTEN, ANZAHL_ZEILEN = 8, 8
+SPIELFELDGROESSE = (400, 400)
+ANZAHL_SPALTEN, ANZAHL_ZEILEN = 10, 10
 ZELLENGROESSE = SPIELFELDGROESSE[0] // ANZAHL_SPALTEN
 ANZAHL_MINEN = 10
 
